@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import pytest
-from Hourglass import ResidualBlock, HourglassBlock
+from hourglass import ResidualBlock, HourglassBlock
 
 def test_residual_block_same_channels():
     """Test ResidualBlock with same input and output channels"""

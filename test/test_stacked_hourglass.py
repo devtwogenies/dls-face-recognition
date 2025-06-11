@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import pytest
-from StackedHourglass import StackedHourglass
+from stacked_hourglass import StackedHourglass
 
 def test_stacked_hourglass_initialization():
     """Test StackedHourglass initialization with different parameters"""
